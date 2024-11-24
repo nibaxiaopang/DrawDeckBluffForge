@@ -22,6 +22,7 @@
 		FF83ADF82CF2FA01003378B4 /* BluffForgeMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADF72CF2FA01003378B4 /* BluffForgeMoreViewController.swift */; };
 		FF83ADFA2CF2FB67003378B4 /* BluffForgePolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADF92CF2FB67003378B4 /* BluffForgePolicyViewController.swift */; };
 		FF83ADFC2CF2FE52003378B4 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADFB2CF2FE4A003378B4 /* UIViewController+ext.swift */; };
+		FF83AE002CF321FB003378B4 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADFF2CF321FB003378B4 /* UIViewController+Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,9 @@
 		FF83ADF72CF2FA01003378B4 /* BluffForgeMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgeMoreViewController.swift; sourceTree = "<group>"; };
 		FF83ADF92CF2FB67003378B4 /* BluffForgePolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgePolicyViewController.swift; sourceTree = "<group>"; };
 		FF83ADFB2CF2FE4A003378B4 /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		FF83ADFD2CF321FB003378B4 /* DrawDeckBluffForge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawDeckBluffForge-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF83ADFE2CF321FB003378B4 /* UIViewController+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tool.h"; sourceTree = "<group>"; };
+		FF83ADFF2CF321FB003378B4 /* UIViewController+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tool.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,9 @@
 				FF83ADF72CF2FA01003378B4 /* BluffForgeMoreViewController.swift */,
 				FF83ADF12CF2F27B003378B4 /* BluffForgeAboutVC.swift */,
 				FF83ADFB2CF2FE4A003378B4 /* UIViewController+ext.swift */,
+				FF83ADFE2CF321FB003378B4 /* UIViewController+Tool.h */,
+				FF83ADFF2CF321FB003378B4 /* UIViewController+Tool.m */,
+				FF83ADFD2CF321FB003378B4 /* DrawDeckBluffForge-Bridging-Header.h */,
 			);
 			path = DrawDeckBluffForge;
 			sourceTree = "<group>";
@@ -149,6 +156,7 @@
 				TargetAttributes = {
 					FF83ADC32CF2D945003378B4 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -230,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF83AE002CF321FB003378B4 /* UIViewController+Tool.m in Sources */,
 				FF83ADF02CF2F25D003378B4 /* BluffForgeThreeCardBattleVC.swift in Sources */,
 				FF83ADFC2CF2FE52003378B4 /* UIViewController+ext.swift in Sources */,
 				FF83ADE62CF2D995003378B4 /* AppDelegate.swift in Sources */,
@@ -272,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -293,6 +303,8 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawDeckBluffForge/DrawDeckBluffForge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -304,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,6 +338,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawDeckBluffForge/DrawDeckBluffForge-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

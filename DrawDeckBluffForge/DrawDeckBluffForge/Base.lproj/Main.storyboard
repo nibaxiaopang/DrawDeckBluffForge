@@ -496,7 +496,7 @@ In Dice and Three Card Battle, strategy intensifies as players draw three cards 
         <!--Bluff Forge Policy View Controller-->
         <scene sceneID="dpz-Po-5zs">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="7pz-H7-ZeZ" customClass="BluffForgePolicyViewController" customModule="DrawDeckBluffForge" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BluffForgePolicyViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7pz-H7-ZeZ" customClass="BluffForgePolicyViewController" customModule="DrawDeckBluffForge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b8N-ap-WWG">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -530,7 +530,7 @@ In Dice and Three Card Battle, strategy intensifies as players draw three cards 
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="btnBack:" destination="7pz-H7-ZeZ" eventType="touchUpInside" id="den-jg-eik"/>
+                                    <action selector="back:" destination="7pz-H7-ZeZ" eventType="touchUpInside" id="g0K-al-La9"/>
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="SDa-Ig-Rsy">
@@ -555,6 +555,14 @@ In Dice and Three Card Battle, strategy intensifies as players draw three cards 
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JaS-bP-fYH"/>
+                    <connections>
+                        <outlet property="activityView" destination="SDa-Ig-Rsy" id="bAq-bV-yXD"/>
+                        <outlet property="bCons" destination="HgZ-7H-YgJ" id="oBf-Dh-mOu"/>
+                        <outlet property="backBtn" destination="da4-pG-HKt" id="Yas-lr-PcC"/>
+                        <outlet property="bgView" destination="534-cD-hQb" id="7fd-XI-bFs"/>
+                        <outlet property="tCons" destination="McS-Uf-LVh" id="sPT-hE-dLL"/>
+                        <outlet property="webView" destination="G8X-oA-uYG" id="qu7-ww-lwQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QcF-oU-jiS" sceneMemberID="firstResponder"/>
             </objects>
@@ -852,6 +860,9 @@ In Dice and Three Card Battle, strategy intensifies as players draw three cards 
                             <constraint firstAttribute="bottom" secondItem="y4M-RC-Mms" secondAttribute="bottom" id="ymb-pt-ylc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bluffActivityView" destination="iZO-i1-j6M" id="9YS-8x-cAh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mL-vE-EYb" sceneMemberID="firstResponder"/>
             </objects>
