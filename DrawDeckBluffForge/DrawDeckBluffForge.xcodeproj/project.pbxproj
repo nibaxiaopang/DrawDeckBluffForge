@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7E23B1F89653F74336E5847 /* Pods_DrawDeckBluffForge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8548A50503222CA3A6AC8D /* Pods_DrawDeckBluffForge.framework */; };
+		FF83ADE62CF2D995003378B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADDC2CF2D995003378B4 /* AppDelegate.swift */; };
+		FF83ADE72CF2D995003378B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADE32CF2D995003378B4 /* SceneDelegate.swift */; };
+		FF83ADE82CF2D995003378B4 /* BluffForgeStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADE42CF2D995003378B4 /* BluffForgeStartViewController.swift */; };
+		FF83ADE92CF2D995003378B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF83ADDD2CF2D995003378B4 /* Assets.xcassets */; };
+		FF83ADEB2CF2D995003378B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF83ADE02CF2D995003378B4 /* LaunchScreen.storyboard */; };
+		FF83ADEC2CF2D995003378B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF83ADE22CF2D995003378B4 /* Main.storyboard */; };
+		FF83ADEE2CF2F249003378B4 /* BluffForgeDiceAndCardBattleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADED2CF2F249003378B4 /* BluffForgeDiceAndCardBattleVC.swift */; };
+		FF83ADF02CF2F25D003378B4 /* BluffForgeThreeCardBattleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADEF2CF2F25D003378B4 /* BluffForgeThreeCardBattleVC.swift */; };
+		FF83ADF22CF2F27B003378B4 /* BluffForgeAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADF12CF2F27B003378B4 /* BluffForgeAboutVC.swift */; };
+		FF83ADF42CF2F564003378B4 /* BluffForgeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADF32CF2F564003378B4 /* BluffForgeNavigationController.swift */; };
+		FF83ADF62CF2F58A003378B4 /* BluffForgeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADF52CF2F58A003378B4 /* BluffForgeHomeViewController.swift */; };
+		FF83ADF82CF2FA01003378B4 /* BluffForgeMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADF72CF2FA01003378B4 /* BluffForgeMoreViewController.swift */; };
+		FF83ADFA2CF2FB67003378B4 /* BluffForgePolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADF92CF2FB67003378B4 /* BluffForgePolicyViewController.swift */; };
+		FF83ADFC2CF2FE52003378B4 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83ADFB2CF2FE4A003378B4 /* UIViewController+ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44FF266EAB2CF55DAE073758 /* Pods-DrawDeckBluffForge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawDeckBluffForge.debug.xcconfig"; path = "Target Support Files/Pods-DrawDeckBluffForge/Pods-DrawDeckBluffForge.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8548A50503222CA3A6AC8D /* Pods_DrawDeckBluffForge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawDeckBluffForge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7ADA069D32731AF97778D9 /* Pods-DrawDeckBluffForge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawDeckBluffForge.release.xcconfig"; path = "Target Support Files/Pods-DrawDeckBluffForge/Pods-DrawDeckBluffForge.release.xcconfig"; sourceTree = "<group>"; };
+		FF83ADC42CF2D945003378B4 /* DrawDeckBluffForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawDeckBluffForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF83ADDC2CF2D995003378B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF83ADDD2CF2D995003378B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF83ADDE2CF2D995003378B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF83ADDF2CF2D995003378B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF83ADE12CF2D995003378B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF83ADE32CF2D995003378B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF83ADE42CF2D995003378B4 /* BluffForgeStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgeStartViewController.swift; sourceTree = "<group>"; };
+		FF83ADED2CF2F249003378B4 /* BluffForgeDiceAndCardBattleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgeDiceAndCardBattleVC.swift; sourceTree = "<group>"; };
+		FF83ADEF2CF2F25D003378B4 /* BluffForgeThreeCardBattleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgeThreeCardBattleVC.swift; sourceTree = "<group>"; };
+		FF83ADF12CF2F27B003378B4 /* BluffForgeAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgeAboutVC.swift; sourceTree = "<group>"; };
+		FF83ADF32CF2F564003378B4 /* BluffForgeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgeNavigationController.swift; sourceTree = "<group>"; };
+		FF83ADF52CF2F58A003378B4 /* BluffForgeHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgeHomeViewController.swift; sourceTree = "<group>"; };
+		FF83ADF72CF2FA01003378B4 /* BluffForgeMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgeMoreViewController.swift; sourceTree = "<group>"; };
+		FF83ADF92CF2FB67003378B4 /* BluffForgePolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluffForgePolicyViewController.swift; sourceTree = "<group>"; };
+		FF83ADFB2CF2FE4A003378B4 /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF83ADC12CF2D945003378B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E23B1F89653F74336E5847 /* Pods_DrawDeckBluffForge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A99AE572B02AF934E9FAA659 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB8548A50503222CA3A6AC8D /* Pods_DrawDeckBluffForge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB39B82C3CDDF1CB6EB340EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44FF266EAB2CF55DAE073758 /* Pods-DrawDeckBluffForge.debug.xcconfig */,
+				CD7ADA069D32731AF97778D9 /* Pods-DrawDeckBluffForge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF83ADBB2CF2D945003378B4 = {
+			isa = PBXGroup;
+			children = (
+				FF83ADE52CF2D995003378B4 /* DrawDeckBluffForge */,
+				FF83ADC52CF2D945003378B4 /* Products */,
+				AB39B82C3CDDF1CB6EB340EE /* Pods */,
+				A99AE572B02AF934E9FAA659 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF83ADC52CF2D945003378B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF83ADC42CF2D945003378B4 /* DrawDeckBluffForge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF83ADE52CF2D995003378B4 /* DrawDeckBluffForge */ = {
+			isa = PBXGroup;
+			children = (
+				FF83ADDC2CF2D995003378B4 /* AppDelegate.swift */,
+				FF83ADE32CF2D995003378B4 /* SceneDelegate.swift */,
+				FF83ADDD2CF2D995003378B4 /* Assets.xcassets */,
+				FF83ADDE2CF2D995003378B4 /* Info.plist */,
+				FF83ADE02CF2D995003378B4 /* LaunchScreen.storyboard */,
+				FF83ADE22CF2D995003378B4 /* Main.storyboard */,
+				FF83ADE42CF2D995003378B4 /* BluffForgeStartViewController.swift */,
+				FF83ADF92CF2FB67003378B4 /* BluffForgePolicyViewController.swift */,
+				FF83ADF52CF2F58A003378B4 /* BluffForgeHomeViewController.swift */,
+				FF83ADF32CF2F564003378B4 /* BluffForgeNavigationController.swift */,
+				FF83ADED2CF2F249003378B4 /* BluffForgeDiceAndCardBattleVC.swift */,
+				FF83ADEF2CF2F25D003378B4 /* BluffForgeThreeCardBattleVC.swift */,
+				FF83ADF72CF2FA01003378B4 /* BluffForgeMoreViewController.swift */,
+				FF83ADF12CF2F27B003378B4 /* BluffForgeAboutVC.swift */,
+				FF83ADFB2CF2FE4A003378B4 /* UIViewController+ext.swift */,
+			);
+			path = DrawDeckBluffForge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF83ADC32CF2D945003378B4 /* DrawDeckBluffForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF83ADD72CF2D945003378B4 /* Build configuration list for PBXNativeTarget "DrawDeckBluffForge" */;
+			buildPhases = (
+				DA1139D093693D0A85D2AF52 /* [CP] Check Pods Manifest.lock */,
+				FF83ADC02CF2D945003378B4 /* Sources */,
+				FF83ADC12CF2D945003378B4 /* Frameworks */,
+				FF83ADC22CF2D945003378B4 /* Resources */,
+				88E0467A366DBDA77E183F56 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawDeckBluffForge;
+			productName = DrawDeckBluffForge;
+			productReference = FF83ADC42CF2D945003378B4 /* DrawDeckBluffForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF83ADBC2CF2D945003378B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FF83ADC32CF2D945003378B4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FF83ADBF2CF2D945003378B4 /* Build configuration list for PBXProject "DrawDeckBluffForge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF83ADBB2CF2D945003378B4;
+			productRefGroup = FF83ADC52CF2D945003378B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF83ADC32CF2D945003378B4 /* DrawDeckBluffForge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF83ADC22CF2D945003378B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF83ADE92CF2D995003378B4 /* Assets.xcassets in Resources */,
+				FF83ADEB2CF2D995003378B4 /* LaunchScreen.storyboard in Resources */,
+				FF83ADEC2CF2D995003378B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88E0467A366DBDA77E183F56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawDeckBluffForge/Pods-DrawDeckBluffForge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawDeckBluffForge/Pods-DrawDeckBluffForge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrawDeckBluffForge/Pods-DrawDeckBluffForge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1139D093693D0A85D2AF52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawDeckBluffForge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF83ADC02CF2D945003378B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF83ADF02CF2F25D003378B4 /* BluffForgeThreeCardBattleVC.swift in Sources */,
+				FF83ADFC2CF2FE52003378B4 /* UIViewController+ext.swift in Sources */,
+				FF83ADE62CF2D995003378B4 /* AppDelegate.swift in Sources */,
+				FF83ADF42CF2F564003378B4 /* BluffForgeNavigationController.swift in Sources */,
+				FF83ADF82CF2FA01003378B4 /* BluffForgeMoreViewController.swift in Sources */,
+				FF83ADFA2CF2FB67003378B4 /* BluffForgePolicyViewController.swift in Sources */,
+				FF83ADF62CF2F58A003378B4 /* BluffForgeHomeViewController.swift in Sources */,
+				FF83ADF22CF2F27B003378B4 /* BluffForgeAboutVC.swift in Sources */,
+				FF83ADE72CF2D995003378B4 /* SceneDelegate.swift in Sources */,
+				FF83ADE82CF2D995003378B4 /* BluffForgeStartViewController.swift in Sources */,
+				FF83ADEE2CF2F249003378B4 /* BluffForgeDiceAndCardBattleVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF83ADE02CF2D995003378B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF83ADDF2CF2D995003378B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF83ADE22CF2D995003378B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF83ADE12CF2D995003378B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF83ADD82CF2D945003378B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FF266EAB2CF55DAE073758 /* Pods-DrawDeckBluffForge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrawDeckBluffForge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DrawDeck BluffForge";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrawDeck.BluffForge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF83ADD92CF2D945003378B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7ADA069D32731AF97778D9 /* Pods-DrawDeckBluffForge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrawDeckBluffForge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "DrawDeck BluffForge";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrawDeck.BluffForge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FF83ADDA2CF2D945003378B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF83ADDB2CF2D945003378B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF83ADBF2CF2D945003378B4 /* Build configuration list for PBXProject "DrawDeckBluffForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF83ADDA2CF2D945003378B4 /* Debug */,
+				FF83ADDB2CF2D945003378B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF83ADD72CF2D945003378B4 /* Build configuration list for PBXNativeTarget "DrawDeckBluffForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF83ADD82CF2D945003378B4 /* Debug */,
+				FF83ADD92CF2D945003378B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF83ADBC2CF2D945003378B4 /* Project object */;
+}
